@@ -1,5 +1,5 @@
 #include<stdio.h>
-void binary_search();
+void binary_search(int,int,int);
 int main(void)
 {
 int n;
