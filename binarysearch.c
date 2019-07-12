@@ -1,5 +1,4 @@
 #include<stdio.h>
-void binary_search(int,int,int);
 int main(void)
 {
 int n;
@@ -14,7 +13,7 @@ scanf("%d",&ele);
 binary_search(arr,ele,n);
 return 0;
 }
-void binary_search(int arr,int ele,int n)
+void binary_search(int arr[],int ele,int n)
 {
 int begin=0,end=n-1;
 int mid=(begin+end)/2;
