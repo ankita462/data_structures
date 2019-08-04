@@ -2,8 +2,8 @@
 
 int find_pivot(int arr[],int size,int num) {
 	int pivot=-1;
-	for(int i=0,j=size-1;i<size/2,j>size/2;i++,j--) {
-		if(arr[i]>arr[j]) {
+	for(int i=0;i<size-1;i++) {
+		if(arr[i]>arr[i+1]) {
 			pivot=i+1;
 			break;
 		}
