@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int* merge_array(int arr[],int arr1[],int n1,int n2) {
 	int h=0,s=0,t=0;
@@ -56,7 +57,7 @@ int main(int argc,char *argv[]) {
 	printf("\n");
 	arr2=merge_array(arr,arr1,n1,n2);
 	for(int i=0;i<k+k1;i++) {
-		printf("%d ",arr2[i]);
+		printf(" %d ",arr2[i]);
 	}
 	return 0;
 }
